@@ -24,8 +24,8 @@ export function Footer() {
                 </div>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Where literature meets healing, and stories become the bridge to transformation. 
-                Join our community of readers, writers, and hope-builders.
+                Leveling the playing field for college access. 
+                Join our community of innovators, educators, and hope-builders.
               </p>
             </div>
             
@@ -94,7 +94,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               © 2024 Maya's Hope by Kamaya Benjamin. All rights reserved. Made with 
               <Heart className="inline h-4 w-4 mx-1 text-primary" /> 
-              for healing through literature.
+              for transformation through opportunity.
             </p>
           </div>
         </div>

@@ -5,13 +5,13 @@ import { motion } from "motion/react";
 const stats = [
   {
     icon: <Users className="h-7 w-7" />,
-    number: "1,200+",
+    number: "200+",
     label: "Community Members",
   },
   {
     icon: <Target className="h-7 w-7" />,
-    number: "85+",
-    label: "Books Discussed",
+    number: "20+",
+    label: "Scholarships Secured",
   },
   {
     icon: <Star className="h-7 w-7" />,
@@ -46,11 +46,10 @@ export function About() {
           >
             <h2 className="mb-8" style={{ fontFamily: 'Playfair Display, serif' }}>About Kamaya & Maya's Hope</h2>
             <p className="text-muted-foreground leading-relaxed text-lg max-w-3xl mx-auto">
-              Maya's Hope was born from a deeply personal journey through literature and healing. 
-              As an educator and advocate, I discovered that stories have the unique power to help us 
-              process trauma, find hope in darkness, and connect with our deepest truths. Through books, 
-              words, and community, we create spaces where healing happens naturally.
-            </p>
+              At Maya’s Hope, we believe every student deserves the opportunity to pursue higher education, 
+              regardless of their background. Our mission is to empower students to navigate the college application process with confidence,
+              providing them with personalized support, resources, and guidance. Whether you’re crafting the perfect essay, 
+              choosing the right programs and scholarships, or preparing for interviews, Maya’s Hope is here to help you succeed.
           </motion.div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -85,10 +84,10 @@ export function About() {
           >
             <h3 className="mb-6 text-center" style={{ fontFamily: 'Playfair Display, serif' }}>My Mission</h3>
             <p className="text-muted-foreground text-center leading-relaxed text-lg max-w-4xl mx-auto">
-              To create healing spaces where literature becomes medicine, where stories build bridges 
-              between hearts, and where hope is not just a feeling but a practice. Through the power 
-              of books, community, and authentic connection, we discover that our stories—no matter 
-              how broken—have the power to inspire, heal, and transform not just ourselves, but the world.
+              At Maya’s Hope, we believe every student deserves the opportunity to pursue higher education, 
+              regardless of their background. Our mission is to empower students to navigate the college application process with confidence,
+              providing them with personalized support, resources, and guidance. Whether you’re crafting the perfect essay, 
+              choosing the right programs and scholarships, or preparing for interviews, Maya’s Hope is here to help you succeed.
             </p>
           </motion.div>
         </div>

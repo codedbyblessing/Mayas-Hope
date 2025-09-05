@@ -3,24 +3,24 @@ import { motion } from "motion/react";
 
 const products = [
   {
-    title: "Literary Healing Workshop",
-    description: "Discover the therapeutic power of storytelling and literature. This 6-week workshop combines creative writing, book discussions, and reflective practices to foster healing and growth.",
-    price: "$89",
+    title: "College Ambassador Program List",
+    description: "Discover a curated list of college ambassador programs that offer leadership opportunities, networking, and skill development. Perfect for students looking to enhance their college experience.",
+    price: "$FREE",
     image: "https://images.unsplash.com/photo-1673515335586-f9f662c01482?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwY291cnNlcyUyMG9ubGluZSUyMGxlYXJuaW5nfGVufDF8fHx8MTc1NzAzNjc0OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     category: "Workshop",
     isPopular: true,
   },
   {
     title: "Hope & Purpose Coaching",
-    description: "One-on-one guidance to help you discover your unique path and cultivate unshakeable hope. Perfect for life transitions, career changes, or personal growth journeys.",
-    price: "$175",
+    description: "One-on-one coaching sessions designed to help you find clarity, set meaningful goals, and create a roadmap for personal and academic success.",
+    price: "$45",
     image: "https://images.unsplash.com/photo-1646066490017-c935b1a1eb0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2FjaGluZyUyMG1lbnRvcnNoaXAlMjB3b21lbnxlbnwxfHx8fDE3NTcwMzY3NTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     category: "Coaching",
   },
   {
-    title: "Hope Circle Community",
-    description: "Join our monthly book club and support community. Engage in meaningful discussions, share your journey, and connect with like-minded individuals on paths of growth.",
-    price: "$29/month",
+    title: "Scholarship List",
+    description: "Access a comprehensive list of scholarships tailored for high school and college students. Find opportunities that match your background, interests, and academic goals.",
+    price: "$FREE",
     image: "https://images.unsplash.com/photo-1616938895503-66c89f91bd7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3BlJTIwY2hhcml0eSUyMG5vbnByb2ZpdCUyMHdvbWFufGVufDF8fHx8MTc1NzAzNjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     category: "Community",
     isPopular: true,
@@ -49,8 +49,7 @@ export function Products() {
             Transformative Programs & Resources
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-            Explore our thoughtfully crafted offerings that blend the power of literature, 
-            storytelling, and personal growth to create lasting transformation in your life.
+            Explore our thoughtfully crafted higher education kit..
           </p>
         </motion.div>
         
