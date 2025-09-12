@@ -1,6 +1,6 @@
 import { Card, CardContent } from "./ui/card";
 import { Heart, Users, Target, Star } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion"; 
 
 const stats = [
   {
@@ -44,12 +44,15 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h2 className="mb-8" style={{ fontFamily: 'Playfair Display, serif' }}>About Kamaya & Maya's Hope</h2>
+            <h2 className="mb-8" style={{ fontFamily: 'Playfair Display, serif' }}>
+              About Kamaya & Maya's Hope
+            </h2>
             <p className="text-muted-foreground leading-relaxed text-lg max-w-3xl mx-auto">
               At Maya’s Hope, we believe every student deserves the opportunity to pursue higher education, 
               regardless of their background. Our mission is to empower students to navigate the college application process with confidence,
               providing them with personalized support, resources, and guidance. Whether you’re crafting the perfect essay, 
               choosing the right programs and scholarships, or preparing for interviews, Maya’s Hope is here to help you succeed.
+            </p> {/* ✅ Added missing closing tag */}
           </motion.div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
@@ -82,7 +85,9 @@ export function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <h3 className="mb-6 text-center" style={{ fontFamily: 'Playfair Display, serif' }}>My Mission</h3>
+            <h3 className="mb-6 text-center" style={{ fontFamily: 'Playfair Display, serif' }}>
+              My Mission
+            </h3>
             <p className="text-muted-foreground text-center leading-relaxed text-lg max-w-4xl mx-auto">
               At Maya’s Hope, we believe every student deserves the opportunity to pursue higher education, 
               regardless of their background. Our mission is to empower students to navigate the college application process with confidence,
